@@ -8,6 +8,12 @@
     android:background="#90EE90"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/switchLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="switchLayout" />
+
     <EditText
         android:id="@+id/editText"
         android:layout_width="match_parent"
